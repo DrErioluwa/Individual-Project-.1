@@ -3,7 +3,7 @@
 import tkinter as tk
 from tkinter import messagebox
 from logic import get_weather
-from utils import load_preferences, save_preferences
+from utilis import load_preferences, save_preferences
 
 def create_gui():
     def search_weather():
